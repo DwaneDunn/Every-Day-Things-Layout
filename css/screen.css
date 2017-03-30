@@ -265,20 +265,20 @@ section.how-to blockquote p.credit::before {
 
 /* Navigation */
 nav {
-  background-color:
+  /*background-color:
   rgba(0,0,0,.65);
   position: relative;
-  padding: 50px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;*/
 }
 
 nav::after {
-  content: '';
+  /*content: '';
   display: block;
-  clear: both;
+  clear: both;*/
 }
 
 nav a.mobile_menu {
-  width: 32px;
+  /*width: 32px;
   height: 32px;
   background: url(../images/icon_menu.svg) no-repeat 0 0;
   background-size: contain;
@@ -286,79 +286,69 @@ nav a.mobile_menu {
   top: 22px;
   left: 50%;
   margin-left: -16px;
-  display: none;
+  display: none;*/
 }
-
-/*nav a:visited {
-  color: #fff;
-}*/
 
 nav ul {
-  list-style: none;
+  /*list-style: none;
   margin: 0px;
-  padding: 0px;
+  padding: 0px;*/
 }
 
-/*nav ul::after {
-  content: '';
-  display: block;
-  clear: both;
-}*/
-
 nav ul li:hover {
-  background-color: #2b0306;
+  /*background-color: #2b0306;*/
 }
 
 nav ul li:hover > ul {
-  display: block;
+  /*display: block;*/
 }
 
 nav ul li a {
-  display: inline-block;
+  /*display: inline-block;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   width: 125px;
-  position: relative;
+  position: relative;*/
 }
 
 nav ul li a:visited {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 nav ul li a:hover {
-  background-color: #79131a;
+  /*background-color: #79131a;*/
 }
 
 nav ul ul {
-  display: none;
+  /*display: none;
   position: absolute;
   top: 100%;
-  background-color: #2b0306;
+  background-color: #2b0306;*/
  }
 
 nav ul ul li {
-  position: relative;
+  /*position: relative;*/
 }
 nav ul ul ul {
-  left: 100%;
-  top: 0;
+  /*left: 100%;
+  top: 0;*/
 }
 
 /* top level */
 nav > ul {
-  padding-left: 200px;
+  /*padding-left: 200px;*/
 }
 nav > ul > li {
-  float: left;
+  /*float: left;*/
 }
 nav > ul > li > a {
-  padding: 10px 20px 15px 20px;
-  width: auto;
+  /*padding: 10px 20px 15px 20px;
+  width: auto;*/
 }
 
 nav a[aria-haspopup="true"]::after {
-	content:'';
+	/*content:'';
 	display: block;
 	width: 0;
 	height: 0;
@@ -367,25 +357,25 @@ nav a[aria-haspopup="true"]::after {
 	border-bottom: 4px solid transparent;
 	border-left: 4px solid #fff;
 	right: 15px;
-	top: 16px;
+	top: 16px;*/
 }
 nav > ul > li > a[aria-haspopup="true"]::after {
-	border-left: 4px solid transparent;
+	/*border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	border-top: 4px solid #fff;
 	left: 20px;
 	bottom: 6px;
 	right: auto;
-	top: auto;
+	top: auto;*/
 }
 nav > ul > li > a[aria-haspopup="true"]::after {
-	border-left: 4px solid transparent;
+	/*border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	border-top: 4px solid #fff;
 	left: 20px;
 	bottom: 6px;
 	right: auto;
-	top: auto;
+	top: auto;*/
 }
 
 /* Footer */
@@ -509,11 +499,11 @@ footer a:hover {
   }
 
   nav {
-    padding-top: 80px;
+    /*padding-top: 80px;*/
   }
 
   nav > ul {
-    padding-left: 10px;
+    /*padding-left: 10px;*/
   }
 
 }
@@ -609,62 +599,62 @@ footer a:hover {
   }
 
   nav {
-    padding: 50px 15px 20px 15px;
+    /*padding: 50px 15px 20px 15px;
     background-color: #4b0a0c;
     height: 0;
-    overflow: hidden;
+    overflow: hidden;*/
   }
 
   nav a.mobile_menu {
-    display: block;
+    /*display: block;*/
   }
 
   nav ul,
   nav ul ul,
   nav ul ul ul {
-    display: block;
-    position: static;
+    /*display: block;
+    position: static;*/
   }
 
   nav > ul {
-    padding: 0;
+    /*padding: 0;*/
   }
 
   nav > ul > li {
-    float: none;
-    margin-top: 25px;
+    /*float: none;
+    margin-top: 25px;*/
   }
 
   nav ul li:hover {
-    background: none;
+    /*background: none;*/
   }
 
   nav ul li a {
-    width: auto;
+    /*width: auto;
     display: block;
     margin: 8px 10px 8px 10px;
     padding: 6px 15px 6px 2px;
-    border-bottom: 1px solid rgba(255,255,255,.25);
+    border-bottom: 1px solid rgba(255,255,255,.25);*/
   }
 
   nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.2);*/
   }
 
   nav ul ul {
-    background: none;
+    /*background: none;*/
   }
 
   nav ul ul li a {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
   }
 
   nav ul ul ul li a {
-    margin-left: 60px;
+    /*margin-left: 60px;*/
   }
 
   nav a[aria-haspopup="true"]::after {
-    display: none;
+    /*display: none;*/
   }
 
   footer div.content {
@@ -727,14 +717,14 @@ footer a:hover {
   }
 
   nav {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
   }
 
   nav a.mobile_menu {
-    left: auto;
+    /*left: auto;
     right: 40px;
     top: 8px;
-    margin-left: 0;
+    margin-left: 0;*/
   }
 
   footer::after {
@@ -749,6 +739,4 @@ footer a:hover {
     float: left;
     clear: both;
   }
-
-
 }
